@@ -389,9 +389,9 @@
 
   #ifdef E0_SERIAL_TX_PIN
 	#undef EO_SERIAL_TX_PIN
-    #define E0_SERIAL_TX_PIN 11
+    #define E0_SERIAL_TX_PIN 5
   #else 
-	#define E0_SERIAL_TX_PIN 11
+	#define E0_SERIAL_TX_PIN 5
   #endif
   #ifndef E0_SERIAL_RX_PIN
     #define E0_SERIAL_RX_PIN 66
